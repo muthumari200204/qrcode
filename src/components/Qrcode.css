@@ -1,0 +1,102 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url('./images/4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.app-container {
+  max-width: 90%;
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.app-container h1 {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+
+.qr-code-image {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  display: block;
+  padding-left: 161px;
+}
+
+
+.input-container {
+  margin: 20px 0;
+}
+
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+
+.input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #555;
+  border: 1px solid #d32f2f;
+  border-radius: 4px;
+  transition: border 0.3s ease;
+}
+
+
+.generate-button,
+.download-button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+
+.generate-button:hover {
+  background-color: #b30000; 
+}
+
+.download-button:hover {
+  background-color: #b30000; 
+}
+
+.footer {
+  margin: 20px 0;
+  font-size: 0.9em;
+  color: deeppink;
+  text-align: center;
+  padding: 5px;
+}
+
+
